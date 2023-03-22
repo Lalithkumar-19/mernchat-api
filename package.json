@@ -1,0 +1,23 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "mern chat",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "Lalith <lalithkumar19180@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-sessions": "^1.0.6",
+        "jsonwebtoken": "^9.0.0",
+        "mongodb": "^5.1.0",
+        "mongoose": "^7.0.1",
+        "nodemon": "^2.0.21",
+        "ws": "^8.12.1"
+    }
+}
